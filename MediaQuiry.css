@@ -1,0 +1,179 @@
+@media (max-width:1050px){
+    :root{
+        font-size:50%;
+    }
+    #home{
+        height:70vh;
+    }
+    #skills{
+        height:90vh;
+    }
+    #certificate{
+        height:90vh;
+    }
+    #contact{
+        height:90vh;
+    }
+
+}
+
+@media (max-width:870px){
+    :root{
+        font-size:40%;
+    }
+    #home{
+        height:50vh;
+    }
+    #about{
+        height:70vh;
+    }
+
+    #skills{
+        height:70vh;
+    }
+     #certificate{
+        height:70vh;
+    }
+    #contact{
+        height:70vh;
+    }
+}
+
+@media  (max-width:770px){
+    :root{
+        font-size:35%;
+    }
+     #home{
+        height:50vh;
+    }
+    #about{
+        height:60vh;
+    }
+
+    #skills{
+        height:60vh;
+    }
+     #certificate{
+        height:60vh;
+    }
+    #contact{
+        height:60vh;
+    }
+}
+
+@media (max-width:650px){
+    :root{
+        font-size:45%;
+    }
+    /* ---------------------header---------------------- */
+    .navbar{
+        padding:0 0;
+    }
+    .navbar img{
+        display:none;
+    }
+    .navbar ul{
+        display:grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .header-content{
+        display:flex;
+        flex-direction:column;
+        gap:30px; 
+    }
+    #home{
+        height: 700px;
+        margin:0px auto;
+    }
+    /* ---------------------about---------------------- */
+    #about-container{
+        display: flex;
+        flex-direction:column;
+        justify-content:space-around ;
+        align-items: center;
+        margin:0 auto;
+    }
+
+    #about{
+        height: 950px;
+    }
+
+    /* ------------------------Education-------------------- */
+
+    #education-container{
+        display:flex;
+        flex-direction:column;
+    }
+
+    #education{
+        height:1100px;
+    }
+
+    /* --------------------------Skills------------------ */
+
+    .skills-container{
+        display:flex;
+        flex-direction:column;
+    }
+
+    #skills{
+        height:800px;
+    }
+    
+    progress{
+        display:inline-block;
+        width:40rem;
+        height:3rem;
+    }
+
+    /* ---------------------------certificates-------------- */
+
+    .certificate-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #certificate{
+        height:800px;
+    }
+
+    /* --------------------contact------------------- */
+
+    .contact-container{
+        display:flex;
+        flex-direction:column;
+        gap:10px;
+        
+    }
+
+    .contact-item1 img{
+        width:30rem;
+        height:30rem;
+    }
+
+    .contact-item2{
+        width:40rem;
+        height:20rem;
+    }
+    .contact-item2 a img{
+        animation: shake 2s linear infinite;
+        width:5rem;
+        height:5rem;
+    }
+    .contact-item2 a{
+        font-size:2rem;
+        font-weight: 600;
+    }
+
+    .foot{
+        height:7rem;
+        background-color: #355C7D;
+        margin:4rem auto 0 auto;
+    }
+
+    #fixed-home a img{
+        width:4rem;
+        height:4rem;
+    }
+
+
+}
